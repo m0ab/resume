@@ -3,276 +3,115 @@ import {
   BarepapersLogo,
   BimLogo,
   CDGOLogo,
-  ClevertechLogo,
   ConsultlyLogo,
   EvercastLogo,
+  GreyshoreLogo,
   Howdy,
   JarockiMeLogo,
-  JojoMobileLogo,
+  ThePentadGroupLogo,
   Minimal,
   MobileVikingsLogo,
   MonitoLogo,
-  NSNLogo,
-  ParabolLogo,
+  PRAGroupLogo,
+  DroneUpLogo,
   TastyCloudLogo,
   YearProgressLogo,
 } from "@/images/logos";
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 
 export const RESUME_DATA = {
-  name: "Bartosz Jarocki",
-  initials: "BJ",
-  location: "Wrocław, Poland, CET",
+  name: "Mark Bennett",
+  initials: "MB",
+  location: "Virginia Beach, Virginia, USA",
   locationLink: "https://www.google.com/maps/place/Wrocław",
   about:
-    "Full Stack Engineer focused on building products with extra attention to detail",
+    "Senior Platform Engineer focused on building real self service solutions with productive automation that improves developer experience",
   summary:
-    "As a Full Stack Engineer, I have successfully taken multiple products from 0 to 1. I lead teams effectively, ensuring an environment where people can do their best work. Currently, I work mostly with TypeScript, React, Node.js, and GraphQL. I have over 8 years of experience in working remotely with companies all around the world.",
-  avatarUrl: "https://avatars.githubusercontent.com/u/1017620?v=4",
-  personalWebsiteUrl: "https://jarocki.me",
+    "As a Senior Platform Engineer, I have successfully designed and implemented cloud solutions for use in Production. I lead teams effectively and with integrity, providing mentoring and enable opportunities to help people grow. Currently, I work mostly with Terraform, Kubernetes, Google Cloud Platform, and CircleCI. I have many years of experience working in the Technology arena with personal and professional projects.",
+  avatarUrl: "https://avatars.githubusercontent.com/u/44004430?v=4",
+  personalWebsiteUrl: "https://systemward.com",
   contact: {
-    email: "bartosz.jarocki@hey.com",
-    tel: "+48530213401",
+    email: "marksg1mail@gmail.com",
     social: [
       {
         name: "GitHub",
-        url: "https://github.com/BartoszJarocki",
+        url: "https://github.com/m0ab",
         icon: GitHubIcon,
       },
       {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/bjarocki/",
+        url: "https://www.linkedin.com/in/bennema1/",
         icon: LinkedInIcon,
-      },
-      {
-        name: "X",
-        url: "https://x.com/BartoszJarocki",
-        icon: XIcon,
       },
     ],
   },
   education: [
     {
-      school: "Wrocław University of Technology",
-      degree: "Bachelor's Degree in Control systems engineering and Robotics",
+      school: "Tidewater Community College",
+      degree: "Associates in Computer Science (Partial Completion)",
       start: "2007",
-      end: "2010",
+      end: "2009",
     },
   ],
   work: [
     {
-      company: "Parabol",
-      link: "https://parabol.co",
-      badges: ["Remote"],
-      title: "Senior Full Stack Developer",
-      logo: ParabolLogo,
-      start: "2021",
-      end: "2024",
+      company: "DroneUp",
+      link: "https://droneup.com",
+      badges: ["Hybrid"],
+      title: "Senior Platform Engineer",
+      logo: DroneUpLogo,
+      start: "2022",
+      end: "Current",
       description:
-        "Implemented new features, led squad, worked on improving the way developers ship the code, started migration from Emotion to Tailwind CSS and more. Technologies: React, TypeScript, GraphQL",
+        "Design and implement tools and cloud solutions to support software engineers' ability to create and run their own infrastructure. Technologies: Terraform Cloud, Kubernetes, Google Cloud Platform, CircleCI, Docker, GitHub, Datadog, Honeycomb, Atlassian",
     },
     {
-      company: "Clevertech",
-      link: "https://clevertech.biz",
+      company: "The Pentad Group",
+      link: "https://www.thepentadgroup.com/",
       badges: ["Remote"],
-      title: "Lead Android Developer → Full Stack Developer",
-      logo: ClevertechLogo,
-      start: "2015",
+      title: "Cloud Automation Engineer",
+      logo: ThePentadGroupLogo,
+      start: "2021",
+      end: "Current",
+      description:
+        "Design and implement cloud infrastructure and services as a contracted consultant to provide customers with the infrastructure required to run secure, scalable, fault-tolerant, resilient services. Technologies: Terraform Open Source, Kubernetes, Azure, Azure DevOps",
+    },
+    {
+      company: "Greyshore Associates",
+      link: "https://www.greyshore.com/",
+      badges: ["Remote"],
+      title: "Lead Cloud Automation Engineer",
+      logo: GreyshoreLogo,
+      start: "2019",
       end: "2021",
       description:
-        "Created Android mobile apps and led teams for companies like Vision Media, DKMS, or AAA. Built live streaming application for Evercast from scratch. Technologies: Android, Kotlin, React, TypeScript, GraphQL",
+        "Operated as a Technical Lead for a team of six Infrastructure Developers to provide guidance on platform architecture decisions and managed executive customer expectations and relationships. Also operated in the capacity of an Infrastructure Developer and designed and implemented cloud service solutions used by Software Engineers to deploy services. Technologies: Terraform Open Source, Kubernetes, Azure, Azure DevOps",
     },
     {
-      company: "Jojo Mobile",
-      link: "https://bsgroup.eu/",
-      badges: [],
-      title: "Android Developer → Lead Android Developer",
-      logo: JojoMobileLogo,
-      start: "2012",
-      end: "2015",
-      description:
-        "Built an Android team, created Android apps for biggest Polish companies like LOT, Polskie Radio, Agora, PolskaPress",
-    },
-    {
-      company: "Nokia Siemens Networks",
-      link: "https://www.nokia.com",
-      badges: [],
-      title: "C/C++ Developer",
-      logo: NSNLogo,
-      start: "2010",
-      end: "2012",
-      description: "Creating and testing software for LTE base stations",
+      company: "PRA Group",
+      link: "https://www.pragroup.com/",
+      badges: [On-site],
+      title: "Systems Engineer",
+      logo: PRAGroupLogo,
+      start: "2014",
+      end: "2020",
+      description: "Responsible and accountable for security vulnerability remediation for thousands of devices. Responsible for maintaining existing on-premises hardware for use by multiple unique business departments. Responsible for PRA Group's maiden voyage into Cloud to solve for unique business requirements. Technologies: Terraform Open Source, kOps, CircleCI, GitHub, AWS, Datadog, Atlassian, Citrix, VMware, LANDesk, Microsoft Windows Server",
     },
   ],
   skills: [
-    "JavaScript",
-    "TypeScript",
-    "React/Next.js/Remix",
-    "Node.js",
-    "GraphQL",
-    "Relay",
-    "WebRTC",
-  ],
-  projects: [
-    {
-      title: "Consultly",
-      techStack: [
-        "Side Project",
-        "TypeScript",
-        "Next.js",
-        "Vite",
-        "GraphQL",
-        "WebRTC",
-      ],
-      description: "A platform to build and grow your online business",
-      logo: ConsultlyLogo,
-      link: {
-        label: "consultly.com",
-        href: "https://consultly.com/",
-      },
-    },
-    {
-      title: "Monito",
-      techStack: ["Side Project", "TypeScript", "Next.js", "Browser Extension"],
-      description:
-        "Browser extension that records everything happening in a web application",
-      logo: MonitoLogo,
-      link: {
-        label: "monito.dev",
-        href: "https://monito.dev/",
-      },
-    },
-    {
-      title: "Jarocki.me",
-      techStack: ["Side Project", "Next.js", "MDX"],
-      description:
-        "My personal website and blog. Built with Next.js and Notion API",
-      logo: JarockiMeLogo,
-      link: {
-        label: "github.com",
-        href: "https://jarocki.me/",
-      },
-    },
-    {
-      title: "Minimal",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
-      description:
-        "Minimalist calendars, habit trackers and planners generator",
-      logo: Minimal,
-      link: {
-        label: "useminimal.com",
-        href: "https://useminimal.com/",
-      },
-    },
-    {
-      title: "Barepapers",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
-      description:
-        "Generates beautiful wallpapers using random shapes and gradients",
-      logo: BarepapersLogo,
-      link: {
-        label: "barepapers.com",
-        href: "https://barepapers.com/",
-      },
-    },
-    {
-      title: "Year progress",
-      techStack: ["Side Project", "TypeScript", "Next.js"],
-      description: "Tracks current year progress and displays a countdown",
-      logo: YearProgressLogo,
-      link: {
-        label: "getyearprogress.com",
-        href: "https://getyearprogress.com/",
-      },
-    },
-    {
-      title: "Parabol",
-      techStack: [
-        "Full Stack Developer",
-        "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
-      ],
-      description:
-        "The Agile meeting co-pilot that delivers better meetings with less effort",
-      logo: ParabolLogo,
-      link: {
-        label: "github.com",
-        href: "https://parabol.co/",
-      },
-    },
-    {
-      title: "Evercast",
-      techStack: [
-        "Lead Frontend Developer",
-
-        "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
-      ],
-      description:
-        "Creative collaboration platform that combines video conferencing and HD media streaming",
-      logo: EvercastLogo,
-      link: {
-        label: "evercast.us",
-        href: "https://www.evercast.us/",
-      },
-    },
-    {
-      title: "Mobile Vikings",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application for leading virtual mobile operator in Poland",
-      logo: MobileVikingsLogo,
-      link: {
-        label: "mobilevikings.pl",
-        href: "https://mobilevikings.pl/",
-      },
-    },
-    {
-      title: "Howdy",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Howdy is a place for you to join communities you care about",
-      logo: Howdy,
-      link: {
-        label: "play.google.com",
-        href: "https://howdy.co/",
-      },
-    },
-    {
-      title: "Tastycloud",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application for managing and displaying restaurant menus in kiosk mode",
-      logo: TastyCloudLogo,
-      link: {
-        label: "tastycloud.fr",
-        href: "https://www.tastycloud.fr/",
-      },
-    },
-    {
-      title: "Ambit",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with sharing your contact details",
-      logo: AmbitLogo,
-    },
-    {
-      title: "Bim",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with booking a table in a restaurants",
-      logo: BimLogo,
-    },
-    {
-      title: "Canal Digital GO",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Video streaming mobile application for Canal Digital subscribers",
-      logo: CDGOLogo,
-    },
+    "Terraform",
+    "Kubernetes",
+    "GCP",
+    "CircleCI",
+    "Azure",
+    "Azure DevOps",
+    "AWS",
+    "Bash",
+    "Honeycomb",
+    "Datadog",
+    "Docker",
+    "Git",
+    "GitHub",
+    "LANDESK",
   ],
 } as const;

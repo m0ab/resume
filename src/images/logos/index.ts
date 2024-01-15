@@ -3,15 +3,15 @@ import AmbitLogo from "./ambit.png";
 import BarepapersLogo from "./barepapers.svg";
 import BimLogo from "./bim.png";
 import CDGOLogo from "./cdgo.png";
-import ClevertechLogo from "./clevertech.png";
+import ThePentadGroupLogo from "./thepentadgroup.png";
 import EvercastLogo from "./evercast.svg";
 import Howdy from "./howdy.png";
 import JarockiMeLogo from "./jarocki.svg";
-import JojoMobileLogo from "./jojomobile.png";
+import GreyshoreLogo from "./greyshore.png";
 import MonitoLogo from "./monito.svg";
 import MobileVikingsLogo from "./mv.png";
-import NSNLogo from "./nsn.svg";
-import ParabolLogo from "./parabol.svg";
+import PRAGroupLogo from "./pragroup.svg";
+import DroneUpLogo from "./droneup.svg";
 import TastyCloudLogo from "./tastycloud.png";
 import YearProgressLogo from "./yearprogress.svg";
 import Minimal from "./minimal.svg";
@@ -22,15 +22,15 @@ export {
   BarepapersLogo,
   BimLogo,
   CDGOLogo,
-  ClevertechLogo,
+  ThePentadGroupLogo,
   EvercastLogo,
   Howdy,
   JarockiMeLogo,
-  JojoMobileLogo,
+  GreyshoreLogo,
   MonitoLogo,
   MobileVikingsLogo,
-  NSNLogo,
-  ParabolLogo,
+  PRAGroupLogo,
+  DroneUpLogo,
   TastyCloudLogo,
   YearProgressLogo,
   Minimal,
