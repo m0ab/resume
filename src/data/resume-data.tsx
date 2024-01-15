@@ -162,6 +162,6 @@ export const RESUME_DATA = {
     "Docker",
     "Git",
     "GitHub",
-    "LANDESK",
+    "LANDesk",
   ],
 } as const;
