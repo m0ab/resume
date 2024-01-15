@@ -19,7 +19,6 @@ export const RESUME_DATA = {
   personalWebsiteUrl: "https://systemward.com",
   contact: {
     email: "marksg1mail@gmail.com",
-    tel: "+48530113502",
     social: [
       {
         name: "GitHub",
