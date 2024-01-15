@@ -91,7 +91,7 @@ export const RESUME_DATA = {
     {
       company: "PRA Group",
       link: "https://www.pragroup.com/",
-      badges: [On-site],
+      badges: ["On-site"],
       title: "Systems Engineer",
       logo: PRAGroupLogo,
       start: "2014",
