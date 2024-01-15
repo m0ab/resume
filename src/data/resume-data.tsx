@@ -27,7 +27,7 @@ export const RESUME_DATA = {
   about:
     "Senior Platform Engineer focused on building real self service solutions with productive automation that improves developer experience",
   summary:
-    "As a Senior Platform Engineer, I have successfully designed and implemented cloud solutions for use in Production. I lead teams effectively and with integrity, providing mentoring and enable opportunities to help people grow. Currently, I work mostly with Terraform, Kubernetes, Google Cloud Platform, and CircleCI. I have many years of experience working in the Technology arena with personal and professional projects.",
+    "As a Senior Platform Engineer, I have successfully designed and implemented cloud solutions for use in Production. I lead teams effectively and with integrity, providing mentoring and enablement opportunities to help people grow. Currently, I work mostly with Terraform, Kubernetes, Google Cloud Platform, and CircleCI. I have many years of experience working in the Technology arena with personal and professional projects.",
   avatarUrl: "https://avatars.githubusercontent.com/u/44004430?v=4",
   personalWebsiteUrl: "https://systemward.com",
   contact: {
