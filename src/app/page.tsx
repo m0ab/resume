@@ -166,6 +166,28 @@ export default function Page() {
             })}
           </div>
         </Section>
+        <Section>
+          <h2 className="text-xl font-bold">Certifications</h2>
+          {RESUME_DATA.certifications.map((certification) => {
+            return (
+              <Card key={certification.name}>
+                <CardHeader>
+                  <div className="flex items-center justify-between gap-x-2 text-base">
+                    <h3 className="font-semibold leading-none">
+                      {certification.name}
+                    </h3>
+                    <div className="text-sm tabular-nums text-gray-500">
+                      Issued: {certification.issuedDate}
+                    </div>
+                  </div>
+                </CardHeader>
+                <CardContent className="mt-2">
+                  <p className="text-xs">Issuer: {certification.issuer}</p>
+                </CardContent>
+              </Card>
+          );
+        })}
+        </Section>
       </section>
 
       <CommandMenu

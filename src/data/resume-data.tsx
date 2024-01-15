@@ -1,21 +1,8 @@
 import {
-  AmbitLogo,
-  BarepapersLogo,
-  BimLogo,
-  CDGOLogo,
-  ConsultlyLogo,
-  EvercastLogo,
   GreyshoreLogo,
-  Howdy,
-  JarockiMeLogo,
   ThePentadGroupLogo,
-  Minimal,
-  MobileVikingsLogo,
-  MonitoLogo,
   PRAGroupLogo,
   DroneUpLogo,
-  TastyCloudLogo,
-  YearProgressLogo,
 } from "@/images/logos";
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 
@@ -98,6 +85,69 @@ export const RESUME_DATA = {
       end: "2020",
       description: "Responsible and accountable for security vulnerability remediation for thousands of devices. Responsible for maintaining existing on-premises hardware for use by multiple unique business departments. Responsible for PRA Group's maiden voyage into Cloud to solve for unique business requirements. Technologies: Terraform Open Source, kOps, CircleCI, GitHub, AWS, Datadog, Atlassian, Citrix, VMware, LANDesk, Microsoft Windows Server",
     },
+  ],
+  certifications: [
+    {
+      name: "FinOps Certified Practitioner",
+      issuedDate: "DEC2023",
+      issuer: "FinOps Foundation",
+    },
+    {
+      name: "Professional Cloud DevOps Engineer",
+      issuedDate: "JUL2023",
+      issuer: "Google Cloud",
+    },
+    {
+      name: "Professional Cloud Architect",
+      issuedDate: "JUL2023",
+      issuer: "Google Cloud",
+    },
+    {
+      name: "Certified Terraform Associate (003)",
+      issuedDate: "JUL2023",
+      issuer: "HashiCorp",
+    },
+    {
+      name: "Cloud Infrastructure Foundations Associate",
+      issuedDate: "FEB2022",
+      issuer: "Oracle",
+    },
+    {
+      name: "Digital Cloud Leader",
+      issuedDate: "SEP2021",
+      issuer: "Google Cloud",
+    },
+    {
+      name: "Certified Cloud Practitioner",
+      issuedDate: "SEP2019",
+      issuer: "Amazon Web Services",
+    },
+    {
+      name: "Associate Cloud Engineer",
+      issuedDate: "NOV2018",
+      issuer: "Google Cloud",
+    },
+    {
+      name: "ITIL Foundation",
+      issuedDate: "DEC2016",
+      issuer: "Axelos",
+    },
+    {
+      name: "Security+ CE",
+      issuedDate: "SEP2016",
+      issuer: "CompTIA",
+    },
+    {
+      name: "Certified LANDesk Engineer",
+      issuedDate: "APR2016",
+      issuer: "LANDesk Software",
+    },
+    {
+      name: "Microsoft Certified Solutions Associate",
+      issuedDate: "JUL2014",
+      issuer: "Microsoft",
+    },
+
   ],
   skills: [
     "Terraform",
