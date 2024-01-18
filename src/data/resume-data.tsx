@@ -45,7 +45,7 @@ export const RESUME_DATA = {
       company: "DroneUp",
       link: "https://droneup.com",
       badges: ["Hybrid"],
-      title: "Senior Platform Engineer",
+      title: "Sr. Software Engineer, Platform Engineering",
       logo: DroneUpLogo,
       start: "2022",
       end: "Current",
