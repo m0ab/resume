@@ -12,7 +12,7 @@ export const RESUME_DATA = {
   location: "Virginia Beach, Virginia, USA",
   locationLink: "https://www.google.com/maps/place/Wrocław",
   about:
-    "Senior Platform Engineer focused on building real self service solutions with productive automation that improves developer experience",
+    "Experienced leader in platform engineering, specializing in cloud transformations, observability, and building developer-focused 'Golden-Path' solutions to drive efficiency, scalability, and innovation.",
   summary:
     "As a Senior Platform Engineer, I have successfully designed and implemented cloud solutions for use in Production. I lead teams effectively and with integrity, providing mentoring and enablement opportunities to help people grow. Currently, I work mostly with Terraform, Kubernetes, Google Cloud Platform, and CircleCI. I have many years of experience working in the Technology arena with personal and professional projects.",
   avatarUrl: "https://avatars.githubusercontent.com/u/44004430?v=4",
@@ -49,8 +49,15 @@ export const RESUME_DATA = {
       logo: DroneUpLogo,
       start: "2022",
       end: "Current",
-      description:
-        "Design and implement tools and cloud solutions to support software engineers' ability to create and run their own infrastructure. Technologies: Terraform Cloud, Kubernetes, Google Cloud Platform, CircleCI, Docker, GitHub, Datadog, Honeycomb, Atlassian",
+      description:[
+        "Lead efforts to enhance developer experience by driving automation, enabling true self-service platforms, and democratizing infrastructure-as-code to accelerate innovation and value delivery across the Engineering organization.",
+        "Designed and implemented a self-service platform enabling teams to quickly and consistently create microservices with deployment pipelines to GKE, empowering them to innovate and deliver value faster.",
+        "Developed and maintained CI/CD pipelines, reusable Golden Path templates, and deployment solutions using tools such as CircleCI, GitHub Actions, Terraform, Docker, Google Artifact Registry, Helm, and Kubernetes.",
+        "Automated GKE version upgrades, ensuring zero downtime and maintaining an acceptable position in compliance frameworks such as SOC2 and NIST 800-53.",
+        "Migrated infrastructure and services from AWS and Azure to Google Cloud Platform, consolidating cloud providers to improve operational efficiency and reduce cost.",
+        "Enhanced observability and production support with tools such as Datadog, Honeycomb, PagerDuty, and Slack.",
+        "Advocated for and practiced Test-Driven Development and Trunk-Based Development to ensure consistent, predictable, and resilient infrastructure solutions with tools such as Terraform, GitHub Actions, and Codecov."
+      ],
     },
     {
       company: "The Pentad Group",
@@ -148,20 +155,17 @@ export const RESUME_DATA = {
     },
 
   ],
-  skills: [
-    "Terraform",
-    "Kubernetes",
-    "GCP",
-    "CircleCI",
-    "Azure",
-    "Azure DevOps",
-    "AWS",
-    "Bash",
-    "Honeycomb",
-    "Datadog",
-    "Docker",
-    "Git",
-    "GitHub",
-    "LANDesk",
-  ],
+  skills: {
+    "Cloud Platforms": ["AWS", "Azure", "GCP"],
+    "Infrastructure-as-code": ["Terraform"],
+    "Containerization and Orchestration": ["Kubernetes", "Docker", "Google Artifact Registry"],
+    "Observability and Monitoring": ["Datadog", "Grafana", "PagerDuty", "Honeycomb", "Google Cloud Logging"],
+    "CI/CD": ["CircleCI", "GitHub Actions"],
+    "Scripting": ["Bash", "PowerShell", "Python"],
+    "Programming Languages": ["Golang"],
+    "Operating Systems": ["Linux (Ubuntu, Alpine, RHEL, CentOS)", "Windows Server (2008, 2012, 2016)"],
+    "Identity and Access Management": ["Active Directory", "RSA", "Okta"],
+    "Project Management and Methodologies": ["Agile", "Scrum", "SAFe", "Kanban"],
+    "Version Control and Collaboration Tools": ["Slack", "Atlassian (Jira, Confluence)", "GitHub", "Bitbucket"],
+  },
 } as const;

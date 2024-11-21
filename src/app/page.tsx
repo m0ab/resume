@@ -83,43 +83,47 @@ export default function Page() {
         </Section>
         <Section>
           <h2 className="text-xl font-bold">Work Experience</h2>
-          {RESUME_DATA.work.map((work) => {
-            return (
-              <Card key={work.company}>
-                <CardHeader>
-                  <div className="flex items-center justify-between gap-x-2 text-base">
-                    <h3 className="inline-flex items-center justify-center gap-x-1 font-semibold leading-none">
-                      <a className="hover:underline" href={work.link}>
-                        {work.company}
-                      </a>
-
-                      <span className="inline-flex gap-x-1">
-                        {work.badges.map((badge) => (
-                          <Badge
-                            variant="secondary"
-                            className="align-middle text-xs"
-                            key={badge}
-                          >
-                            {badge}
-                          </Badge>
-                        ))}
-                      </span>
-                    </h3>
-                    <div className="text-sm tabular-nums text-gray-500">
-                      {work.start} - {work.end}
-                    </div>
+          {RESUME_DATA.work.map((work) => (
+            <Card key={work.company}>
+              <CardHeader>
+                <div className="flex items-center justify-between gap-x-2 text-base">
+                  <h3 className="inline-flex items-center justify-center gap-x-1 font-semibold leading-none">
+                    <a className="hover:underline" href={work.link}>
+                      {work.company}
+                    </a>
+                    <span className="inline-flex gap-x-1">
+                      {work.badges.map((badge) => (
+                        <Badge
+                          variant="secondary"
+                          className="align-middle text-xs"
+                          key={badge}
+                        >
+                          {badge}
+                        </Badge>
+                      ))}
+                    </span>
+                  </h3>
+                  <div className="text-sm tabular-nums text-gray-500">
+                    {work.start} - {work.end}
                   </div>
-
-                  <h4 className="font-mono text-sm leading-none">
-                    {work.title}
-                  </h4>
-                </CardHeader>
-                <CardContent className="mt-2 text-xs">
-                  {work.description}
-                </CardContent>
-              </Card>
-            );
-          })}
+                </div>
+                <h4 className="font-mono text-sm leading-none">{work.title}</h4>
+              </CardHeader>
+              <CardContent className="mt-2 text-xs">
+                {/* Render as bullets if description is an array */}
+                {Array.isArray(work.description) ? (
+                  <ul className="list-disc ml-5">
+                    {work.description.map((point, index) => (
+                      <li key={index}>{point}</li>
+                    ))}
+                  </ul>
+                ) : (
+                  // Render as paragraph for string descriptions
+                  <p>{work.description}</p>
+                )}
+              </CardContent>
+            </Card>
+          ))}
         </Section>
         <Section>
           <h2 className="text-xl font-bold">Education</h2>
@@ -160,15 +164,18 @@ export default function Page() {
                   <p className="text-xs">Issuer: {certification.issuer}</p>
                 </CardContent>
               </Card>
-          );
-        })}
+            );
+          })}
         </Section>
         <Section>
           <h2 className="text-xl font-bold">Skills</h2>
-          <div className="flex flex-wrap gap-1">
-            {RESUME_DATA.skills.map((skill) => {
-              return <Badge key={skill}>{skill}</Badge>;
-            })}
+          <div className="space-y-4">
+            {Object.entries(RESUME_DATA.skills).map(([category, skills]) => (
+              <div key={category}>
+                <h3 className="font-semibold">{category}:</h3>
+                <p className="ml-4">{skills.join(", ")}</p>
+              </div>
+            ))}
           </div>
         </Section>
       </section>
